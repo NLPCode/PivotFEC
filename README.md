@@ -36,7 +36,7 @@ Before running our code, you should download the data, put them into the root di
 ## Train our proposed PivotFEC for factual error correction
 
 
-* Step 1: Creating Synthetic Data for Factual Error Correction.
+* Step 1: Creating synthetic data for factual error correction.
 
 Since we use ChatGPT for data augmentation, we first run the following command to create inputs for ChatGPT.
 ```bash
