@@ -102,7 +102,7 @@ If you want to use this code in your research, please cite our [paper](https://a
       Jin, A-Long  and
       Ma, Jun  and
       Yuan, Yuan  and
-      Yiu, Siu",
+      Yiu, Siu Ming",
     editor = "Bouamor, Houda  and
       Pino, Juan  and
       Bali, Kalika",
