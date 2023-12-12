@@ -1,6 +1,6 @@
 # README
 This repository contains the implementation of the EMNLP 2023 paper: 
-"[**PivotFEC: Enhancing Few-shot Factual Error Correction with a Pivot Task Approach using Large Language Modelss**](https://aclanthology.org/2023.emnlp-long.1246/)".
+"[**PivotFEC: Enhancing Few-shot Factual Error Correction with a Pivot Task Approach using Large Language Modelss**](https://aclanthology.org/2023.findings-emnlp.667/)".
 ****
 ##  Abstract
 Factual Error Correction (FEC) aims to rectify false claims by making minimal revisions to align them more accurately with supporting evidence. However, the lack of datasets containing false claims and their corresponding corrections has impeded progress in this field. Existing distantly supervised models typically employ the mask-then-correct paradigm, where a masker identifies problematic spans in false claims, followed by a corrector to predict the masked portions. Unfortunately, accurately identifying errors in claims is challenging, leading to issues like over-erasure and incorrect masking. 
@@ -93,20 +93,26 @@ tar -xzvf checkpoint_name.tar.gz # replace 'checkpoint_name' with the correspond
 
 
 ## Citation
-If you want to use this code in your research, please cite our [paper](https://aclanthology.org/2023.emnlp-long.400006/):
+If you want to use this code in your research, please cite our [paper](https://aclanthology.org/2023.findings-emnlp.667/):
 ```bash
 
-@inproceedings{he-yiu-2022-controllable,
-    title = "Controllable Dictionary Example Generation: Generating Example Sentences for Specific Targeted Audiences",
-    author = "He, Xingwei  and Yiu, Siu Ming",
-    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    month = may,
-    year = "2022",
-    address = "Dublin, Ireland",
+@inproceedings{he-etal-2023-pivotfec,
+    title = "{P}ivot{FEC}: Enhancing Few-shot Factual Error Correction with a Pivot Task Approach using Large Language Models",
+    author = "He, Xingwei  and
+      Jin, A-Long  and
+      Ma, Jun  and
+      Yuan, Yuan  and
+      Yiu, Siu",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
     publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2022.acl-long.46",
-    doi = "10.18653/v1/2022.acl-long.46",
-    pages = "610--627",
+    url = "https://aclanthology.org/2023.findings-emnlp.667",
+    pages = "9960--9976",
 }
 
 ```
